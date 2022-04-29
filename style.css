@@ -1,0 +1,504 @@
+* {
+    /* padding: 0;*/
+    margin-right: 0;
+    margin-top: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'poppins';
+}
+
+.myName {
+    position: relative;
+    top: 15px;
+    font-weight: bold;
+}
+
+
+
+.nav-container {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 40px;
+    /* height: 80px; */
+    background-color: rgb(240, 234, 229);
+}
+
+.myWork {
+    /* border: 1px solid black; */
+    /* background-color: aquamarine; */
+}
+
+.myWork span,
+.bcolor {
+    background-color: aqua;
+    padding: 0 2px;
+}
+
+
+
+.nav-bar {
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 3fr 6fr 1fr 1fr;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.navi {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+
+.menu-list {
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+
+a {
+    color: black;
+    /* border: 1px solid black; */
+}
+
+a:hover {
+    color: rgb(184, 179, 174);
+}
+
+.list-items {
+    margin-right: 30px;
+}
+
+.menu-list:hover {
+    color: rgb(184, 179, 174);
+}
+
+.account {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.account a {
+    height: fit-content;
+}
+
+.user-icon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 60px;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+
+}
+
+.socials {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.socials i {
+    font-size: 20px;
+    margin-right: 9px;
+}
+
+/* Hero section */
+
+.hero {
+    /* border: 1px solid black; */
+    height: 930px;
+    padding-top: 40px;
+    background-color: rgb(240, 234, 229);
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-bottom: 120px;
+}
+
+.hero-info {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info p {
+    width: 600px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+p .thin {
+    font-weight: 200;
+    font-style: italic;
+}
+
+p .bold {
+    font-weight: bolder;
+}
+
+.hero-img {
+
+    width: 500px;
+    height: 800px;
+    overflow: hidden;
+
+}
+
+.laptop-img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    object-position: -45px 0;
+}
+
+
+/* thisisMe Section */
+
+.box1 {
+    height: 170px;
+    width: 850px;
+    background-color: aqua;
+    margin-bottom: 40px;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.box1 .me {
+    width: 400px;
+    font-size: 50px;
+    position: relative;
+    top: -40px;
+    left: 50px;
+    font-weight: 200;
+}
+
+.box1 p span {
+    font-weight: 400;
+}
+
+.aboutMe {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.write {
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.writeup {
+    width: 470px;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    line-height: 60px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.blk {
+    background-color: black;
+    color: white;
+    padding: 0 5px;
+}
+
+.gry {
+    background-color: rgb(194, 194, 194);
+    padding: 0 5px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* more */
+
+.more-img {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    left: calc(100% - 500px);
+}
+
+.pic {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.more-about {
+    position: relative;
+    width: 900px;
+    height: 900px;
+    background-color: rgb(240, 234, 229);
+    top: -200px;
+    left: 150px;
+    padding: 20px 10px;
+}
+
+
+
+.advise {
+    width: 600px;
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    margin-top: 70px;
+}
+
+.advise span {
+    font-weight: bold;
+}
+
+.more-about .write {
+    width: 800px;
+    margin-left: 50px;
+}
+
+.blw {
+    margin-bottom: 60px;
+}
+
+.more-about .button {
+    margin-left: 50px;
+}
+
+
+.more-about::before {
+    content: '';
+    background-color: aqua;
+    width: 100px;
+    height: 870px;
+    position: absolute;
+    left: 890px;
+    top: 90px;
+
+}
+
+.box1 .client {
+    width: 400px;
+    font-size: 50px;
+    position: relative;
+    top: -90px;
+    left: 50px;
+    font-weight: 200;
+    line-height: 60px;
+}
+
+.info-box {
+    width: 1200px;
+    height: 500px;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    top: -130px;
+}
+
+.info-box p {
+    width: 60%;
+    text-align: center;
+    margin: 40px auto;
+    position: relative;
+    top: 140px;
+    line-height: 40px;
+}
+
+.brands {
+    /* border: 1px solid white; */
+    display: flex;
+    position: relative;
+    top: 160px;
+    left: -45px;
+    justify-content: center;
+    width: 100%;
+    padding: 0 40px;
+}
+
+.brand-logoBlack,
+.brand-logoWhite {
+    /* border: 1px solid white; */
+    position: relative;
+    margin: 0 10px;
+    width: 150px;
+}
+
+.brandl {
+    /* border: 1px solid white; */
+    display: flex;
+}
+
+.brandl .brand-logoWhite {
+    display: none;
+}
+
+.brandl:hover {
+    cursor: pointer;
+}
+
+.brandl:hover .brand-logoWhite {
+    display: block;
+}
+
+.brandl:hover .brand-logoBlack {
+    display: none;
+}
+
+.post {
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.post span {
+    font-weight: 500;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+
+}
+
+.items:hover img {
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 0.4s all ease;
+}
+
+.items {
+    display: flex;
+    width: 300px;
+    height: 310px;
+    margin-left: 50px;
+    position: relative;
+    margin-bottom: 100px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.items img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    transition: 0.4s all ease;
+    opacity: 0.7;
+
+}
+
+.gadget2 {
+    object-fit: contain;
+    object-position: 0 -90px;
+}
+
+
+
+/* footer section */
+
+footer {
+    width: 100%;
+    height: 330px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+footer p {
+    padding-top: 30px;
+    margin-top: 10px;
+    font-size: 40px;
+    /* border: 1px solid white; */
+    text-align: center;
+}
+
+.require {
+    color: aqua;
+}
+
+form {
+    position: relative;
+    width: 900px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    /* border: 1px solid white; */
+}
+
+input[type='email'] {
+    width: 700px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 0 10px;
+    margin-left: 89px;
+
+}
+
+input[type='email']:focus {
+    outline: none;
+}
+
+input[type='email']:invalid {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+form button {
+    width: 722px;
+    height: 35px;
+    border: 1px solid aqua;
+    background-color: aqua;
+    color: black;
+    font-size: 17px;
+    margin-left: 89px;
+}
+
+form button:hover {
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+form label {
+    margin-left: 89px;
+}
+
+.copyrite {
+    /* border: 1px solid white; */
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 25px;
+}
